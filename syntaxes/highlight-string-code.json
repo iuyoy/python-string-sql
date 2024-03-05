@@ -165,7 +165,7 @@
                     ]
                 },
                 {
-                    "begin": "(SELECT|INSERT|DELETE|UPDATE|DROP|ALTER|CREATE|SET|TRUNCATE|GRANT|REVOKE)\\s",
+                    "begin": "\\s*(SELECT|INSERT|DELETE|UPDATE|DROP|ALTER|CREATE|SET|TRUNCATE|GRANT|REVOKE)\\s",
                     "end": "(;)",
                     "beginCaptures": {
                         "1": {
